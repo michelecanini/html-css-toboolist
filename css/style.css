@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -15,7 +16,6 @@
 /*impostazioni header*/
 
 header{
-    font-family: 'Roboto', sans-serif;
     position: relative;
     padding-bottom: 5px;
     margin: auto;
@@ -49,6 +49,8 @@ nav{
     border-bottom: 1px solid rgba(128, 128, 128, 0.213);
 }
 
+/*impostazioni bottoni nav*/
+
 input.task{
     padding: 1%;
     padding-left: 2%;
@@ -72,4 +74,11 @@ input.section{
     margin-top: 9px;
 }
 
+ul{
+    font-size: 18px;
+    font-weight: bold ;
+    margin-top: 40px;
+    margin-left: 70px
+    
+}
 
