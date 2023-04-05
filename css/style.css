@@ -9,7 +9,6 @@
 
 .container{
     background-color: rgba(128, 128, 128, 0.213);
-    height: 1920px;
     width: 1080px;
 }
 
@@ -38,15 +37,24 @@ header > img{
 
 .container-list{
     width: 70%;
-    height: 1920px;
+    height: 900px;
     background-color: white;
     margin-top: 40px;
+
+    
 }
 
 nav{
     background-color: white;
     height: 50px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.213);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+main.container-list{
+    border-top: 1px solid white;
+    border-radius: 7px;
 }
 
 /*impostazioni bottoni nav*/
@@ -58,7 +66,7 @@ input.task{
     border: 1px solid;
     border-radius: 7px;
     color: white;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(25,181,253);
     margin-top: 9px;
     margin-left: 50px;
 }
@@ -74,11 +82,72 @@ input.section{
     margin-top: 9px;
 }
 
+/*impostazioni liste*/
+
 ul{
-    font-size: 18px;
-    font-weight: bold ;
-    margin-top: 40px;
-    margin-left: 70px
     
+    line-height:200%;
+    font-weight: 400;
+    list-style-type: none;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 70px 
+}
+
+/*impostazioni task*/
+
+.task-title{
+    font-weight: bold ;
+    font-size: 18px;
+}
+
+.task-check{
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 1px 4px;
+    color: green;
+    font-size: 12px;
+}
+
+.task-cross{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 1px 4px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*impostazioni tag genere*/
+
+.tag-editorial, .tag-q1goals, .tag-recruiting, .tag-mobile, .tag-website, .tag-sales{
+    font-size: 10px;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 7px;
+}
+
+.tag-editorial{
+    background-color: rgb(25,181,253);
+}
+
+.tag-q1goals{
+    background-color: rgb(145, 73, 172);
+}
+
+.tag-recruiting{
+    background-color: rgb(43, 159, 125);
+}
+
+.tag-mobile{
+    background-color: rgb(254, 164, 47);
+}
+
+.tag-website{
+    background-color: rgb(218, 87, 105);
+}
+
+.tag-sales{
+    background-color: rgb(151, 197, 82);
 }
 
